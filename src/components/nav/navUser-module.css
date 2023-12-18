@@ -1,0 +1,29 @@
+.register__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 3px solid #6e4e92;
+}
+
+.register__nav-btn {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.register__nav-btn button {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #d40e1c;
+  padding: 5px 15px;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.register__nav-btn button:hover {
+  background: #7d0b13;
+}

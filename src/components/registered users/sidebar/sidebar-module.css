@@ -1,0 +1,25 @@
+.sidebar {
+  display: inline-flex;
+  padding: 10px 55px 10px 0px;
+  border-right: 3px solid #6e4e92;
+}
+
+.sidebar a:visited,
+.sidebar a:active {
+  color: #6e4e92;
+}
+
+.sidebar_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sidebar_nav-list {
+  color: #6e4e92;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}

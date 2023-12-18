@@ -1,0 +1,11 @@
+.sidenav {
+  position: absolute;
+  z-index: 1;
+  top: 46px;
+  left: 217px;
+  padding-top: 20px;
+}
+
+.main {
+  margin-left: 172px;
+}

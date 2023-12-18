@@ -1,0 +1,75 @@
+.newsCard {
+  background: #dce7f6;
+  width: 920px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px solid #7e90a5;
+}
+
+.newsCard__name {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.newsCard__name-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #6e4e92;
+}
+
+.newsCard__name-about {
+  color: #7947b1;
+  gap: 5px;
+  margin: 0 10px;
+}
+
+.newsCard__name-name {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.newsCard__name-surname,
+.newsCard__name-data {
+  color: #633a92;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.newsCard__name-author {
+  color: #7947b1;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.newsCard__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 10px 20px;
+  margin-bottom: 50px;
+}
+
+.newsCard__reaction {
+  margin: 20px;
+  display: flex;
+  width: 560px;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #7947b1;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.editbtn {
+  display: flex;
+  gap: 50px;
+}

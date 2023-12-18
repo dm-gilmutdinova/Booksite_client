@@ -1,0 +1,10 @@
+.pagenotfound {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagenotfound__title {
+  color: #6e4e92;
+}

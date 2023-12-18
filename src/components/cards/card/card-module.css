@@ -1,0 +1,115 @@
+.card {
+  border-radius: 20px;
+  background: #fff;
+  max-width: 500px;
+}
+
+.card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 164px;
+  border-radius: 20px 20px 0px 0px;
+  background: linear-gradient(127deg, #fccfdb 0%, #fff 100%);
+  padding: 0 30px;
+}
+
+.card__us {
+  display: flex;
+  align-items: center;
+}
+
+.card__img {
+  border-radius: 50px;
+  background: #fff;
+  width: 90px;
+  height: 90px;
+}
+
+.card__user {
+  display: block;
+  margin-left: 14px;
+}
+
+.card__user-name,
+.card__user-id {
+  color: #c8484f;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card__user-id {
+  font-size: 16px;
+}
+
+.card__follow {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background: #c8484f;
+  margin-left: 100px;
+}
+
+.card__head-title {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.card__head-about {
+  width: 300px;
+  color: #c8484f;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  line-height: 11.5px;
+  border-right: 10px solid #c8484f;
+}
+
+.card__img-border {
+  height: 100%;
+}
+
+.card__head-shelf {
+  display: block;
+  padding: 20px 25px;
+}
+
+.card__title-shelf {
+  /* padding: 20px 18px; */
+  color: #c8484f;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+  border-bottom: #c8484f 2px solid;
+  width: 100px;
+  text-align: center;
+}
+
+.shelf {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.shelf__book {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+  color: #c8484f;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  align-items: center;
+}

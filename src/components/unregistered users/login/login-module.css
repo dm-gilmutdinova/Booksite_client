@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  background: url(./../../../img/login/bgr4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -74px -141px;
+  background-size: 175ch;
+}
+
+.login__card {
+  border-radius: 30px;
+  background: #fff;
+  width: 350px;
+  text-align: center;
+  margin: 100px 665px;
+}
+
+.login__card-title {
+  padding-top: 40px;
+  color: #6e4e92;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.login__card-input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 25px;
+}
+
+.login__card-input input {
+  padding: 15px 20px;
+  outline: none;
+  border: 5px solid #6e4e92;
+  border-radius: 20px;
+
+  color: #6e4e92;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder {
+  color: #d2b4f4;
+}
+
+.login__card-social {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.login__button {
+  display: flex;
+  flex-direction: column;
+  margin: 0 75px;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+
+.login__button button {
+  border-radius: 20px;
+  background: #6e4e92;
+  transition: all 0.2s ease-in;
+}
+
+.login__button button:hover {
+  background: #402d56;
+}
+
+.btn__registration {
+  padding: 15px 25px;
+  color: #fff;
+  font-family: Crimson Text;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.login__button-btn {
+  width: 200px;
+  padding: 25px 29px;
+  position: relative;
+}
+
+.login__btn-icon {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+}

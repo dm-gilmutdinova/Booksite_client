@@ -1,0 +1,33 @@
+header {
+  background-image: url('./../../../../img/main/bgr.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 13px -18px;
+  padding-left: 70px;
+}
+
+.header__title {
+  padding-top: 80px;
+  color: #6e4e92;
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 80.48%;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  color: #7947b1;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  max-width: 533px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.header__subtitle-accent {
+  color: #c8484f;
+  font-weight: 600;
+  padding-top: 30px;
+}

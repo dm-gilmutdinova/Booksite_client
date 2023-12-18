@@ -1,0 +1,27 @@
+.about {
+  padding-top: 40px;
+  background-image: url('./../../../../img/main/bgr2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -204px 10px;
+}
+
+.about__title {
+  color: #6e4e92;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about__subtitle {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #6e4e92;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 630px;
+}

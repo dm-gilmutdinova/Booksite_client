@@ -1,0 +1,50 @@
+.addPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.addPost__title {
+  color: #6e4e92;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.addPost__form {
+  margin-top: 30px;
+}
+
+.addPost__form-input {
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 20px;
+  border: 5px solid #6e4e92;
+
+  resize: none;
+}
+
+.addPost__form-text {
+  height: 200px;
+}
+
+.addPost__form-btn {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.addPost__form-reset {
+  background-color: #7d0b13;
+  color: #d40e1c;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.addPost__form-submit {
+  background-color: #1c682a;
+  color: #0ed432;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
