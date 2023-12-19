@@ -15,7 +15,7 @@ export const cards = [
         their "What to Read Next?" list.
         <br />
         <br />
-        I am passionate about various genres - from classic literature to
+        I am j passionate about various genres - from classic literature to
         science fiction, from detective stories to philosophy. In my
         profile, you will find reviews of books that impressed me with their
         deep plot, vibrant characters, and unique atmosphere.
