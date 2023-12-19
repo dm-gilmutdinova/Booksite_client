@@ -13,7 +13,7 @@ const NewsNoAuth = () => {
 
   React.useEffect(() => {
     dispatch(fetchPosts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

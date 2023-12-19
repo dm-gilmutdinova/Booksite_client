@@ -16,7 +16,7 @@ const Home = () => {
 
   React.useEffect(() => {
     dispatch(fetchPosts());
-  }, []);
+  }, [dispatch]);
   return (
     <div className='container'>
       <Navigation />
