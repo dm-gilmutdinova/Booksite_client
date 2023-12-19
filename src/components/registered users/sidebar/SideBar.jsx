@@ -11,16 +11,16 @@ export const SideBar = () => {
           <a href='/addpost'>Add post</a>
         </li>
         <li className='sidebar_nav-list'>
-          <a href=''>Bookshelf</a>
+          <a href='/user'>Bookshelf</a>
         </li>
         <li className='sidebar_nav-list'>
-          <a href=''>Reading</a>
+          <a href='/user'>Reading</a>
         </li>
         <li className='sidebar_nav-list'>
-          <a href=''>Bookstore</a>
+          <a href='/user'>Bookstore</a>
         </li>
         <li className='sidebar_nav-list'>
-          <a href=''>Trends</a>
+          <a href='/home'>Trends</a>
         </li>
       </ul>
     </div>

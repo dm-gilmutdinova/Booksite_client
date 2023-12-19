@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchAuthUser, selectIsAuth } from './redux/slices/auth';
+// import { useDispatch } from 'react-redux';
+// import { fetchAuthUser } from './redux/slices/auth';
 import Authorization from './pages/Authorization';
 import Main from './pages/Main';
 import Sign from './pages/Sign';
@@ -12,12 +12,11 @@ import User from './pages/User';
 import { AddPost } from './pages/AddPost/AddPost';
 
 function App() {
-  const dispatch = useDispatch();
-  const isAuth = useSelector(selectIsAuth);
+  // const dispatch = useDispatch();
 
-  React.useEffect(() => {
-    dispatch(fetchAuthUser());
-  }, []);
+  // React.useEffect(() => {
+  //   dispatch(fetchAuthUser());
+  // }, []);
 
   return (
     <div>

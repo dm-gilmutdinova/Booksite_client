@@ -1,4 +1,3 @@
-import SimpleMDE from 'react-simplemde-editor';
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Navigate, useNavigate } from 'react-router-dom';
@@ -36,7 +35,7 @@ export const AddPost = () => {
       };
       const { data } = await axios.post('/posts', fields);
       const id = data._id;
-      navigate('./posts/${id}');
+      navigate(`./posts/${id}`);
     } catch (error) {
       console.warn(error);
       alert('error :(');
@@ -67,11 +66,6 @@ export const AddPost = () => {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
-            {/* <SimpleMDE
-              className='addPost__form-input addPost__form-text'
-              value={text}
-              onChange={onChange}
-            /> */}
             <textarea
               type='text'
               placeholder="You're text"
