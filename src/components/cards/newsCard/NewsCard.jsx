@@ -1,4 +1,6 @@
+import { useDispatch } from 'react-redux';
 import { UserInfo } from '../../registered users/user/info/UserInfo';
+import { fetchRemovePost } from '../../../redux/slices/posts';
 import { ReactComponent as CommentsIcon } from './../../../img/news/comments.svg';
 import { ReactComponent as LikeIcon } from './../../../img/news/like.svg';
 import { ReactComponent as RepostIcon } from './../../../img/news/repost.svg';
@@ -18,6 +20,14 @@ export const NewsCard = ({
   createdAt,
   isEditable,
 }) => {
+  const dispatch = useDispatch();
+
+  const onClickRemove = () => {
+    if (window.confirm('Are you sure want to delete?')) {
+      dispatch(fetchRemovePost(_id));
+    }
+  };
+
   return (
     <div className='newsCard'>
       <div className='newsCard__name'>
@@ -60,7 +70,7 @@ export const NewsCard = ({
               </button>
             </span>
             <span>
-              <button>
+              <button onClick={onClickRemove}>
                 <DeleteIcon style={{ width: 25, height: 25 }} />
               </button>
             </span>

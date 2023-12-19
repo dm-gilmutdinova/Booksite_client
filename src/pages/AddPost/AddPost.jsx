@@ -17,7 +17,7 @@ export const AddPost = () => {
   const [book, setBook] = useState('');
 
   const onChange = React.useCallback((text) => {
-    setText(text);
+    setText(text.target.value);
   }, []);
 
   // const handleChangeFile = () => {};
@@ -67,18 +67,18 @@ export const AddPost = () => {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
-            <SimpleMDE
-              className='addPost__form-input addPost__form-text'
-              value={text}
-              onChange={onChange}
-            />
-            {/* <textarea
-              type='text'
-              placeholder="You're text"
+            {/* <SimpleMDE
               className='addPost__form-input addPost__form-text'
               value={text}
               onChange={onChange}
             /> */}
+            <textarea
+              type='text'
+              placeholder="You're text"
+              className='addPost__form-input addPost__form-text'
+              value={text.toString()}
+              onChange={onChange}
+            />
             <div className='addPost__form-btn'>
               <button onClick={onSubmit} className='addPost__form-submit'>
                 Add
